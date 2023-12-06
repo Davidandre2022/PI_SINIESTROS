@@ -4,8 +4,6 @@
 
 ## 1- **Comprensión del negocio**
 
-![Accidentes]
-
 ### **Observaciones y conclusiones:**
 
 Se llevará a cabo un análisis de una base de datos recopilada entre 2016 y 2021 sobre accidentes viales en la Ciudad de Buenos Aires. Este análisis es crucial para reducir las tasas de mortalidad asociadas con estos incidentes mediante medidas preventivas.
@@ -29,8 +27,6 @@ KPI 3: Indicador definido por el analista en concordancia con el Objetivo 3.
 Fórmula 3: Fórmula diseñada por el analista según el KPI 3 y el objetivo correspondiente.
 
 ## 2- **Exploración inicial**
-
-![Exploración]
 
 ### **Conclusiones: df_hechos**
 
@@ -57,8 +53,6 @@ Fórmula 3: Fórmula diseñada por el analista según el KPI 3 y el objetivo cor
 - ``ACUSADO``: categórico (str).
 
 ## 3- **Planteamiento**
-
-![Planteamientos]
 
 OBJETIVO 3:
 Reducir en un 5% la cantidad de accidentes mortales en el último semestre en la Ciudad Autónoma de Buenos Aires (CABA), causados por el principal responsable de siniestros viales en comparación con el semestre anterior.
