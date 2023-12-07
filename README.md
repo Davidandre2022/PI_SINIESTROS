@@ -233,6 +233,7 @@ Se eliminan los siguientes campos irrelevantes para el análisis de los KPIs
 
 6.En 2 de los 5 años, se observó un porcentaje de cambio negativo, lo que significa un aumento en la tasa de accidentes en moto en comparación con el año anterior. Aunque es una minoría, sigue siendo preocupante la frecuencia de este fenómeno.
 
+### **KPI 3:** Cantidad de accidentes mortales ocasionado por el mayor responsable de homicidios en siniestros viales del ultimo semestre
 ![KPI3](grafico_semestre_kp3.png)
 
 **Conclusiones:**
