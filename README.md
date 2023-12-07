@@ -232,3 +232,26 @@ Se eliminan los siguientes campos irrelevantes para el análisis de los KPIs
 5.De los 5 años analizados, 3 cumplieron el objetivo establecido, indicando que el balance general es positivo según los criterios iniciales.
 
 6.En 2 de los 5 años, se observó un porcentaje de cambio negativo, lo que significa un aumento en la tasa de accidentes en moto en comparación con el año anterior. Aunque es una minoría, sigue siendo preocupante la frecuencia de este fenómeno.
+
+![KPI3](grafico_semestre_kp3.png)
+
+**Conclusiones:**
+
+1.Identificamos al auto como el principal responsable de accidentes de tránsito durante el último semestre (2021-2), por lo que realizamos un análisis específico para este tipo de vehículo.
+
+2.Dado que no disponemos de datos previos al año 2016, iniciamos nuestra evaluación comparando los semestres 2016-1 y 2016-2, y los valores en la gráfica son visibles a partir del semestre 2016-2.
+
+3.n valor positivo en la gráfica para un semestre indica que hubo una disminución en la cantidad de accidentes ocasionados por autos en comparación con el semestre anterior.
+
+4.Si la gráfica muestra una pendiente positiva (creciente), significa que la diferencia de accidentes ocasionados por autos en comparación con el semestre anterior ha aumentado de manera positiva.
+
+5.El valor representado en la gráfica indica el porcentaje en el cual la cantidad de accidentes causados por autos se redujo respecto al semestre anterior. El objetivo es que este valor sea superior al 5%. Se logró este objetivo en los semestres:
+
+2017-2: Se observó una reducción en los accidentes causados por autos en comparación con el semestre anterior, y esta diferencia fue mayor que la del semestre pasado.
+2019-2: Hubo una disminución en los accidentes causados por autos respecto al semestre anterior, siendo la diferencia mayor que en el semestre pasado.
+2020-1: Se registró una reducción en los accidentes causados por autos en comparación con el semestre anterior, aunque la diferencia fue menor que en el semestre pasado.
+2021-1: Se evidenció una disminución en los accidentes causados por autos frente al semestre anterior, y esta diferencia fue mayor que en el semestre pasado.
+
+6.De los 11 semestres analizados, solo 4 cumplieron el objetivo establecido, indicando que el balance general no es positivo según los criterios iniciales.
+
+7.En 5 de los 11 semestres, se observó un porcentaje de cambio negativo, indicando un aumento en la cantidad de accidentes ocasionados por autos en comparación con el semestre anterior. Aunque es una minoría, la frecuencia sigue siendo preocupante.
