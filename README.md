@@ -130,208 +130,107 @@ Se eliminan los siguientes campos irrelevantes para el análisis de los KPIs
 
 ## 6- **Análisis Univariado**
 
-### **df_hechos.N_VICTIMAS**
+### Número de Víctimas por Accidente (`df_hechos.N_VICTIMAS`)
 
-![N_VICTIMAS](distribucion_n_victimas.png)
-
-**Conclusiones**
-
--Solamente hay 3 posibilidades de victimas por accidente: 1, 2, 3
--La media del número de víctimas es aproximadamente 1.03, lo que sugiere que, en promedio, la mayoría de los accidentes tienen alrededor de una víctima.
--Dado que el 75% de los valores están en el primer cuartil, esto significa que el 75% de los accidentes tienen 1 víctima, y el segundo y tercer cuartiles son también 1. El valor máximo en el cuartil (75%) es 3, lo que indica que el 25% restante de los accidentes tiene 2 o 3 víctimas.
--Mayor frecuencia de numero de víctimas por accidente: 1 (97.13%)
--Menor frecuencia de numero de víctimas por accidente: 3 (0.14%)
-
-![N_VICTIMAS](conteo_valores_victima.png)
-
-**Conclusiones**
-
--Solamente hay 3 posibilidades de victimas por accidente: 1, 2, 3
--La media del número de víctimas es aproximadamente 1.03, lo que sugiere que, en promedio, la mayoría de los accidentes tienen alrededor de una víctima.
--Dado que el 75% de los valores están en el primer cuartil, esto significa que el 75% de los accidentes tienen 1 víctima, y el segundo y tercer cuartiles son también 1. El valor máximo en el cuartil (75%) es 3, lo que indica que el 25% restante de los accidentes tiene 2 o 3 víctimas.
--Mayor frecuencia de numero de víctimas por accidente: 1 (97.13%)
--Menor frecuencia de numero de víctimas por accidente: 3 (0.14%)
-
-### **df_hechos.VICTIMA**
-
-![VICTIMA](conteo_valores_victima.png)
-
-**Conclusiones**
-
--Hay 10 tipos diferentes de víctimas involucradas.
--El valor más frecuente es "MOTO". Esto significa que "MOTO" es el tipo de víctima más común en los accidentes registrados.
--la frecuencia del tipo de víctima más común ("MOTO") es 295. Esto significa que hubo 295 accidentes en los que estuvieron involucradas motocicletas como víctimas.
--Victima con mayor frecuencia en accidentes: "MOTO" (42.39%)
--Victima con menor frecuencia en accidentes: "PEATON_MOTO" (0.14 %)
-
-### **df_hechos.ACUSADO**
-
-![ACUSADO](conteo_valores_acusado.png)
+![Distribución de Número de Víctimas](distribucion_n_victimas.png)
 
 **Conclusiones:**
 
--Hay 10 valores únicos en la columna "ACUSADO". Esto significa que existen 10 tipos diferentes de entidades o vehículos acusados en los accidentes registrados.
--El valor más frecuente en la columna "ACUSADO" es "AUTO". Esto significa que "AUTO" es el tipo de entidad o vehículo más comúnmente acusado en los accidentes registrados en el DataFrame.
--Indica que la frecuencia del tipo de entidad o vehículo más comúnmente acusado ("AUTO") es 204. Esto significa que hubo 204 accidentes en los que se acusó a un automóvil como la entidad responsable.
--Acusado con mayor frecuencia de accidentes: AUTO (29.31 %)
--Acusado con menor frecuencia de accidentes: TREN (0.14 %)
+- Existen solo 3 posibilidades de víctimas por accidente: 1, 2, 3.
+- La media del número de víctimas es aproximadamente 1.03, lo que sugiere que, en promedio, la mayoría de los accidentes tienen alrededor de una víctima.
+- El 75% de los valores están en el primer cuartil, lo que significa que el 75% de los accidentes tienen 1 víctima. Los segundos y terceros cuartiles también son 1. El valor máximo en el cuartil (75%) es 3, indicando que el 25% restante de los accidentes tiene 2 o 3 víctimas.
+- La mayor frecuencia de número de víctimas por accidente es 1 (97.13%).
+- La menor frecuencia de número de víctimas por accidente es 3 (0.14%).
 
-### **df_hechos.AAAA**
+![Conteo de Valores de Víctima](conteo_valores_victima.png)
 
-![AAAA](conteo_valores_aaa.png)
+### Tipo de Víctima (`df_hechos.VICTIMA`)
 
-![AAAA](boxplot_aaa.png)
+![Conteo de Valores de Víctima](conteo_valores_victima.png)
 
-**Conclusiones**
+**Conclusiones:**
 
--Hay 6 años únicos diferentes en la columna "AAAA", desde 2016 hasta 2021.
--(Cuartiles): Estos valores representan los cuartiles del conjunto de datos. Por ejemplo, el valor del primer cuartil (25%) es 2017, lo que significa que el 25% de los accidentes ocurrieron en 2017 o antes. El segundo cuartil (50%) es 2018, que es la mediana, indicando que el 50% de los accidentes ocurrieron en 2018 o antes. El tercer cuartil (75%) es 2020, lo que sugiere que el 75% de los accidentes ocurrieron en 2020 o antes.
--Año con mayor frecuencia de accidentes: 2016 (20.69%)
--Año con menor frecuencia de accidentes: 2020 (11.21%)
+- Hay 10 tipos diferentes de víctimas involucradas.
+- El tipo de víctima más frecuente es "MOTO", con 295 incidentes registrados, lo que representa el 42.39% de los casos.
+- La víctima con menor frecuencia en accidentes es "PEATON_MOTO" (0.14%).
+
+### Entidad o Vehículo Acusado (`df_hechos.ACUSADO`)
+
+![Conteo de Valores Acusado](conteo_valores_acusado.png)
+
+**Conclusiones:**
+
+- Existen 10 valores únicos en la columna "ACUSADO", lo que indica 10 tipos diferentes de entidades o vehículos acusados en los accidentes.
+- El tipo de entidad o vehículo más frecuentemente acusado es "AUTO", con 204 incidentes registrados, representando el 29.31% de los casos.
+- La entidad con menor frecuencia de accidentes es "TREN" (0.14%).
+
+### Año de Accidente (`df_hechos.AAAA`)
+
+![Conteo de Valores de Año](conteo_valores_aaa.png)
+
+![Boxplot de Año](boxplot_aaa.png)
+
+**Conclusiones:**
+
+- Los datos cubren 6 años únicos, desde 2016 hasta 2021.
+- Los cuartiles indican lo siguiente:
+  - Primer cuartil (25%): 2017
+  - Mediana (50%): 2018
+  - Tercer cuartil (75%): 2020
+- El año con mayor frecuencia de accidentes es 2016 (20.69%).
+- El año con menor frecuencia de accidentes es 2020 (11.21%).
 
 ## 7- **Manejo de valores faltantes (nulos)**
 
 ## 8- **Análisis Multivariado**
 
-### **KPI 1:** tasa de homicidios en siniestros viales
+### **KPI 1: Tasa de Homicidios en Siniestros Viales**
 
 ![KPI1](grafico_semestre_kp1.png)
 
 **Conclusiones:**
 
-1.La primera medida que tomamos se basa en la comparación de los semestres 2016-1 y 2016-2, ya que no disponemos de datos previos al año 2016-1. Por lo tanto, solo observamos valores a partir del semestre 2016-2.
+1. La primera medida se basa en la comparación de los semestres 2016-1 y 2016-2, ya que no disponemos de datos previos a 2016-1. Los valores se observan a partir del semestre 2016-2.
+2. Un valor positivo en la gráfica indica una disminución en el número de homicidios en comparación con el semestre anterior.
+3. Una pendiente positiva señala un aumento positivo en la diferencia de accidentes de motos en comparación con el semestre anterior.
+4. El valor representado en la gráfica indica el porcentaje en el que la tasa de homicidios en accidentes de tránsito se redujo respecto al semestre anterior. El objetivo es que este valor sea superior al 10%. Se logró este objetivo en los semestres:
+   - **2017-1:** Reducción de homicidios mayor al 10% comparado con el semestre anterior.
+   - **2019-1:** Reducción de homicidios mayor al 10% comparado con el semestre anterior.
+   - **2019-2:** Reducción de homicidios menor al 10% comparado con el semestre anterior.
+   - **2021-2:** Reducción de homicidios mayor al 10% comparado con el semestre anterior.
+5. De los 11 semestres analizados, solo 4 cumplieron el objetivo, indicando que el balance general no es positivo según los criterios iniciales.
+6. En 5 de los 11 semestres, se observó un porcentaje de cambio negativo, lo que significa un aumento en la tasa de homicidios comparado con el semestre anterior. Aunque es una minoría, la frecuencia es preocupante.
 
-2.Si el valor en la gráfica para un semestre es positivo, indica que hubo una disminución en el número de homicidios en comparación con el semestre anterior.
-
-3.Una pendiente positiva en la gráfica señala un aumento positivo en la diferencia de accidentes de motos en comparación con el semestre anterior.
-
-4.El valor representado en la gráfica indica el porcentaje en el cual la tasa de homicidios en accidentes de tránsito se redujo respecto al semestre anterior. El objetivo es que este valor sea superior al 10%. Se logró este objetivo en los semestres:
-
-2017-1: Hubo una reducción de homicidios mayor al 10% comparado con el semestre anterior.
-2019-1: Se observó una reducción de homicidios mayor al 10% en comparación con el semestre anterior.
-2019-2: Aunque hubo una reducción de homicidios, esta fue menor al 10% respecto al semestre anterior.
-2021-2: La reducción de homicidios fue mayor al 10% en comparación con el semestre anterior.
-
-5.De los 11 semestres analizados, solo 4 cumplieron el objetivo establecido, indicando que el balance general no es positivo según los criterios iniciales.
-
-6.En 5 de los 11 semestres, se observó un porcentaje de cambio negativo, lo que significa un aumento en la tasa de homicidios en comparación con el semestre anterior. Aunque esta es una minoría, sigue siendo preocupante la frecuencia de este fenómeno.
-
-### **KPI 2:** Cantidad de accidentes mortales de motociclistas en siniestros viales
+### **KPI 2: Cantidad de Accidentes Mortales de Motociclistas en Siniestros Viales**
 
 ![KPI2](grafico_aaaa_kp2.png)
 
 **Conclusiones:**
 
-1.Nuestra primera evaluación se centra en comparar los años 2016 y 2017, ya que no disponemos de datos previos al año 2016. Por lo tanto, los valores en la gráfica solo están visibles a partir del año 2017.
+1. La evaluación se centra en comparar los años 2016 y 2017, ya que no hay datos previos a 2016. Los valores en la gráfica están visibles a partir del año 2017.
+2. Un valor positivo en la gráfica indica una disminución en el número de homicidios en comparación con el año anterior.
+3. Una pendiente positiva significa que la diferencia de accidentes de motos en comparación con el año anterior ha aumentado de manera positiva.
+4. El valor en la gráfica indica el porcentaje en el que la cantidad de homicidios en accidentes de motos se redujo respecto al año anterior. El objetivo es que este valor sea superior al 7%. Se logró este objetivo en los años:
+   - **2017:** Reducción de homicidios comparado con el año anterior, pero sin valores previos para comparación.
+   - **2019:** Reducción de homicidios mayor al 7% comparado con el año anterior.
+   - **2020:** Reducción de homicidios mayor al 7% comparado con el año anterior.
+5. De los 5 años analizados, 3 cumplieron el objetivo, indicando un balance positivo según los criterios iniciales.
+6. En 2 de los 5 años, se observó un porcentaje de cambio negativo, lo que significa un aumento en la tasa de accidentes en moto comparado con el año anterior. Aunque es una minoría, la frecuencia es preocupante.
 
-2.Un valor positivo en la gráfica para un año indica que hubo una disminución en el número de homicidios en comparación con el año anterior.
+### **KPI 3: Cantidad de Accidentes Mortales Ocasionados por el Mayor Responsable de Homicidios en Siniestros Viales del Último Semestre**
 
-3.Si la gráfica muestra una pendiente positiva (creciente), significa que la diferencia de accidentes de motos en comparación con el año anterior ha aumentado de manera positiva.
-
-4.El valor representado en la gráfica indica el porcentaje en el cual la cantidad de homicidios en accidentes de motos se redujo respecto al año anterior. El objetivo es que este valor sea superior al 7%. Se logró este objetivo en los años:
-
-2017: Hubo una reducción de homicidios en comparación con el año anterior, pero al no tener valores para el año anterior, no podemos determinar si fue mayor o menor respecto a ese año.
-2019: Se observó una reducción de homicidios mayor al 7% en comparación con el año anterior.
-2020: La cantidad de homicidios en accidentes de motos se redujo más del 7% en comparación con el año anterior.
-
-5.De los 5 años analizados, 3 cumplieron el objetivo establecido, indicando que el balance general es positivo según los criterios iniciales.
-
-6.En 2 de los 5 años, se observó un porcentaje de cambio negativo, lo que significa un aumento en la tasa de accidentes en moto en comparación con el año anterior. Aunque es una minoría, sigue siendo preocupante la frecuencia de este fenómeno.
-
-### **KPI 3:** Cantidad de accidentes mortales ocasionado por el mayor responsable de homicidios en siniestros viales del ultimo semestre
 ![KPI3](grafico_semestre_kp3.png)
 
 **Conclusiones:**
 
-1.Identificamos al auto como el principal responsable de accidentes de tránsito durante el último semestre (2021-2), por lo que realizamos un análisis específico para este tipo de vehículo.
-
-2.Dado que no disponemos de datos previos al año 2016, iniciamos nuestra evaluación comparando los semestres 2016-1 y 2016-2, y los valores en la gráfica son visibles a partir del semestre 2016-2.
-
-3.n valor positivo en la gráfica para un semestre indica que hubo una disminución en la cantidad de accidentes ocasionados por autos en comparación con el semestre anterior.
-
-4.Si la gráfica muestra una pendiente positiva (creciente), significa que la diferencia de accidentes ocasionados por autos en comparación con el semestre anterior ha aumentado de manera positiva.
-
-5.El valor representado en la gráfica indica el porcentaje en el cual la cantidad de accidentes causados por autos se redujo respecto al semestre anterior. El objetivo es que este valor sea superior al 5%. Se logró este objetivo en los semestres:
-
-2017-2: Se observó una reducción en los accidentes causados por autos en comparación con el semestre anterior, y esta diferencia fue mayor que la del semestre pasado.
-2019-2: Hubo una disminución en los accidentes causados por autos respecto al semestre anterior, siendo la diferencia mayor que en el semestre pasado.
-2020-1: Se registró una reducción en los accidentes causados por autos en comparación con el semestre anterior, aunque la diferencia fue menor que en el semestre pasado.
-2021-1: Se evidenció una disminución en los accidentes causados por autos frente al semestre anterior, y esta diferencia fue mayor que en el semestre pasado.
-
-6.De los 11 semestres analizados, solo 4 cumplieron el objetivo establecido, indicando que el balance general no es positivo según los criterios iniciales.
-
-7.En 5 de los 11 semestres, se observó un porcentaje de cambio negativo, indicando un aumento en la cantidad de accidentes ocasionados por autos en comparación con el semestre anterior. Aunque es una minoría, la frecuencia sigue siendo preocupante.
-
-
-
-## 📝 **Descripción del Proyecto**
-Este proyecto de **Data Analytics** se enfoca en analizar accidentes de tránsito ocurridos en la Ciudad Autónoma de Buenos Aires entre los años **2016 y 2021**. El objetivo es identificar patrones y tendencias clave para desarrollar estrategias preventivas que reduzcan los siniestros viales, especialmente aquellos con víctimas fatales.
-
----
-
-## 🎯 **Objetivos Principales**
-1. **🔻 Reducir un 10%** la tasa de homicidios en siniestros viales en los últimos seis meses respecto al semestre anterior.
-   - **KPI 1:** Tasa de homicidios en siniestros viales por cada 100,000 habitantes.
-2. **🛵 Disminuir un 7%** los accidentes mortales de motociclistas en el último año.
-   - **KPI 2:** Variación anual de accidentes mortales con víctimas motociclistas.
-3. **🚨 Reducir un 5%** los accidentes mortales causados por el principal responsable en el último semestre.
-   - **KPI 3:** Variación semestral de accidentes mortales causados por el principal responsable (🚗 *autos*).
-
----
-
-## 🔍 **Análisis Exploratorio**
-Durante el análisis se realizó una **exploración de datos** con el objetivo de conocer la estructura de los siniestros viales:
-- 📅 **Fechas de los accidentes** (2016-2021).
-- 🧑‍🤝‍🧑 **Número de víctimas** por accidente.
-- 🚦 **Lugar del hecho** y tipos de calles.
-- 🏘️ **Comunas** involucradas.
-
-### 📊 **Principales hallazgos:**
-- El **97.13%** de los accidentes tuvieron solo **una víctima**.
-- El tipo de víctima más común fueron los **motociclistas** (42.39%).
-- El vehículo más involucrado como responsable fue el **auto** (29.31%).
-
----
-
-## 🛠️ **Tecnologías Utilizadas**
-- **Python** 🐍
-  - Pandas
-  - Matplotlib
-  - Seaborn
-- **Google Cloud** ☁️
-  - BigQuery
-  - Data Studio
-- **Power BI** 📊 (Visualización de datos)
-- **GitHub** 🐙 (Control de versiones)
-
----
-
-## 📈 **Resultados y Conclusiones**
-1. **Tasa de homicidios**: Se lograron reducciones importantes (>10%) en algunos semestres, pero aún existen varios con aumentos preocupantes.
-2. **Accidentes de motociclistas**: En tres de los cinco años analizados, se logró la reducción esperada.
-3. **Responsabilidad de autos**: Aunque en varios semestres se redujeron los accidentes causados por autos, en cinco semestres hubo incrementos preocupantes.
-
----
-
-## 📊 **Visualización de Datos**
-### Distribución del Número de Víctimas por Accidente
-![Distribución de víctimas](distribucion_n_victimas.png)
-
-### Tipos de Víctimas
-![Conteo de víctimas](conteo_valores_victima.png)
-
-### Vehículos Acusados en los Accidentes
-![Acusados en accidentes](conteo_valores_acusado.png)
-
----
-
-## 📂 **Estructura del Proyecto**
-```bash
-├── datasets/
-│   └── accidentes_caba.csv
-├── src/
-│   ├── data_cleaning.py
-│   ├── data_analysis.py
-│   └── visualizations.py
-├── README.md
-└── requirements.txt
+1. El auto se identificó como el principal responsable de accidentes de tránsito durante el último semestre (2021-2), y se realizó un análisis específico para este tipo de vehículo.
+2. La evaluación inicia comparando los semestres 2016-1 y 2016-2, con valores visibles a partir del semestre 2016-2.
+3. Un valor positivo en la gráfica indica una disminución en la cantidad de accidentes ocasionados por autos comparado con el semestre anterior.
+4. Una pendiente positiva significa que la diferencia de accidentes ocasionados por autos comparado con el semestre anterior ha aumentado de manera positiva.
+5. El valor en la gráfica indica el porcentaje en el que la cantidad de accidentes causados por autos se redujo respecto al semestre anterior. El objetivo es que este valor sea superior al 5%. Se logró este objetivo en los semestres:
+   - **2017-2:** Reducción en los accidentes causados por autos comparado con el semestre anterior, con una diferencia mayor.
+   - **2019-2:** Disminución en los accidentes causados por autos comparado con el semestre anterior, con una diferencia mayor.
+   - **2020-1:** Reducción en los accidentes causados por autos comparado con el semestre anterior, aunque la diferencia fue menor.
+   - **2021-1:** Disminución en los accidentes causados por autos comparado con el semestre anterior, con una diferencia mayor.
+6. De los 11 semestres analizados, solo 4 cumplieron el objetivo, indicando que el balance general no es positivo según los criterios iniciales.
+7. En 5 de los 11 semestres, se observó un porcentaje de cambio negativo, indicando un aumento en la cantidad de accidentes ocasionados por autos comparado con el semestre anterior. Aunque es una minoría, la frecuencia sigue siendo preocupante.
