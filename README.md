@@ -1,4 +1,5 @@
 # 🚗 **PROYECTO INDIVIDUAL Nº2** 
+
 ## 📊 `Análisis de Siniestros Viales en CABA (2016-2021)`
 
 ### 🌟 **Autor:** Andre Montes
@@ -7,29 +8,25 @@
 
 ## 1- **Comprensión del negocio**
 
-### **Observaciones y conclusiones:**
+### 🚦 **Overview**
+Este proyecto analiza los datos de accidentes de tránsito en la Ciudad de Buenos Aires (CABA) entre 2016 y 2021 con el objetivo de identificar patrones y reducir la mortalidad asociada a estos incidentes. Los insights derivados están orientados a apoyar iniciativas de seguridad pública y medidas preventivas.
 
-Se llevará a cabo un análisis de una base de datos recopilada entre 2016 y 2021 sobre accidentes viales en la Ciudad de Buenos Aires. Este análisis es crucial para reducir las tasas de mortalidad asociadas con estos incidentes mediante medidas preventivas.
-
-Con el objetivo de establecer metas claras, se han definido tres objetivos principales junto con sus correspondientes indicadores clave de rendimiento (KPIs):
-
-Objetivo 1: Reducción del 10% en la tasa de homicidios en siniestros viales en los últimos seis meses en comparación con el semestre anterior en CABA.
-
-KPI 1: La tasa de homicidios en siniestros viales se define como el número de víctimas fatales en accidentes de tránsito por cada 100,000 habitantes en un área geográfica durante un período específico.
-Fórmula 1: (Número de homicidios en siniestros viales / Población total) * 100,000.
-Corrección Fórmula 1: Porcentaje de variación entre el semestre actual y el anterior, ajustado por la población.
-
-Objetivo 2: Disminución del 7% en la cantidad de accidentes mortales de motociclistas en el último año en comparación con el año anterior en CABA.
-
-KPI 2: La cantidad de accidentes mortales de motociclistas se define como el número absoluto de accidentes fatales en los que estuvieron involucradas víctimas que viajaban en moto en un periodo específico.
-Fórmula 2: Porcentaje de variación entre el número de accidentes mortales con víctimas en moto del año actual y del año anterior.
-
-Objetivo 3: Definido por el analista.
-
-KPI 3: Indicador definido por el analista en concordancia con el Objetivo 3.
-Fórmula 3: Fórmula diseñada por el analista según el KPI 3 y el objetivo correspondiente.
+### 🎯 **Objetivos del Proyecto & KPIs**  
+1. **Reducir en un 10% la tasa de homicidios en accidentes viales**  
+   - **KPI**: Tasa de homicidios por cada 100,000 habitantes  
+   - **Fórmula**: `(Número de víctimas fatales / Población total) * 100,000`
+   - **Objetivo**: Comparar la tasa en dos semestres consecutivos, ajustada por la población.
+   
+2. **Disminuir en un 7% los accidentes mortales de motociclistas**  
+   - **KPI**: Número absoluto de accidentes mortales de motociclistas  
+   - **Fórmula**: Variación porcentual entre el año actual y el anterior.
+   
+3. **Objetivo definido por el analista**  
+   - **KPI**: A definir en función de los análisis adicionales.
 
 ## 2- **Exploración inicial**
+
+El conjunto de datos contiene información detallada sobre los siniestros viales en CABA, incluyendo fecha, lugar, número de víctimas y tipos de participantes. Algunos de los campos clave son:
 
 ### **Conclusiones: df_hechos**
 
