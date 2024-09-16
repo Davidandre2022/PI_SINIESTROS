@@ -1,6 +1,9 @@
-# <h1 align=center> **PROYECTO INDIVIDUAL Nº2**
-# <h1 align=center> ** ANDRE MONTES **
-### <h1 align=center> `Siniestros viales` (Data Analytics)
+# 🚗 **PROYECTO INDIVIDUAL Nº2** 
+## 📊 `Análisis de Siniestros Viales en CABA (2016-2021)`
+
+### 🌟 **Autor:** Andre Montes
+
+---
 
 ## 1- **Comprensión del negocio**
 
@@ -258,12 +261,6 @@ Se eliminan los siguientes campos irrelevantes para el análisis de los KPIs
 7.En 5 de los 11 semestres, se observó un porcentaje de cambio negativo, indicando un aumento en la cantidad de accidentes ocasionados por autos en comparación con el semestre anterior. Aunque es una minoría, la frecuencia sigue siendo preocupante.
 
 
-# 🚗 **PROYECTO INDIVIDUAL Nº2** 
-## 📊 `Análisis de Siniestros Viales en CABA (2016-2021)`
-
-### 🌟 **Autor:** Andre Montes
-
----
 
 ## 📝 **Descripción del Proyecto**
 Este proyecto de **Data Analytics** se enfoca en analizar accidentes de tránsito ocurridos en la Ciudad Autónoma de Buenos Aires entre los años **2016 y 2021**. El objetivo es identificar patrones y tendencias clave para desarrollar estrategias preventivas que reduzcan los siniestros viales, especialmente aquellos con víctimas fatales.
