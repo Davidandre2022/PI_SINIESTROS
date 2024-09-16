@@ -64,10 +64,8 @@ El KPI se define como el número total de accidentes fatales causados por dicho 
 ### Fórmula 3 (Porcentaje de variación):
 Se calcula utilizando la siguiente fórmula:
 
-\[
-\text{Porcentaje de variación} = \frac{(\text{Accidentes mortales causados por el principal responsable en el semestre actual} - \text{Accidentes mortales causados por el mismo responsable en el semestre anterior})}{\text{Accidentes mortales causados por el principal responsable en el semestre anterior}} \times 100
-\]
-
+ ``(porcentaje de variación): {(número de accidentes mortales causados por el principal responsable de siniestros viales del último semestre en el semestre anterior - número de accidentes mortales causados por el mismo responsable en el semestre actual) /(número de accidentes mortales causados por el principal responsable de siniestros viales del último semestre en el semestre anterior)} * 100.``
+ 
 ### Datos requeridos para el análisis:
 
 #### KPI 1: Tasa de homicidios en siniestros viales
