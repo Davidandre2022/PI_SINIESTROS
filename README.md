@@ -65,7 +65,7 @@ El KPI se define como el número total de accidentes fatales causados por dicho 
 Se calcula utilizando la siguiente fórmula:
 
 \[
-\text{Porcentaje de variación} = \frac{(\text{Accidentes mortales causados por el principal responsable en el semestre anterior} - \text{Accidentes mortales causados por el mismo responsable en el semestre actual})}{\text{Accidentes mortales causados por el principal responsable en el semestre anterior}} \times 100
+\text{Porcentaje de variación} = \frac{(\text{Accidentes mortales causados por el principal responsable en el semestre actual} - \text{Accidentes mortales causados por el mismo responsable en el semestre anterior})}{\text{Accidentes mortales causados por el principal responsable en el semestre anterior}} \times 100
 \]
 
 ### Datos requeridos para el análisis:
