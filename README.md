@@ -256,3 +256,83 @@ Se eliminan los siguientes campos irrelevantes para el análisis de los KPIs
 6.De los 11 semestres analizados, solo 4 cumplieron el objetivo establecido, indicando que el balance general no es positivo según los criterios iniciales.
 
 7.En 5 de los 11 semestres, se observó un porcentaje de cambio negativo, indicando un aumento en la cantidad de accidentes ocasionados por autos en comparación con el semestre anterior. Aunque es una minoría, la frecuencia sigue siendo preocupante.
+
+
+# 🚗 **PROYECTO INDIVIDUAL Nº2** 
+## 📊 `Análisis de Siniestros Viales en CABA (2016-2021)`
+
+### 🌟 **Autor:** Andre Montes
+
+---
+
+## 📝 **Descripción del Proyecto**
+Este proyecto de **Data Analytics** se enfoca en analizar accidentes de tránsito ocurridos en la Ciudad Autónoma de Buenos Aires entre los años **2016 y 2021**. El objetivo es identificar patrones y tendencias clave para desarrollar estrategias preventivas que reduzcan los siniestros viales, especialmente aquellos con víctimas fatales.
+
+---
+
+## 🎯 **Objetivos Principales**
+1. **🔻 Reducir un 10%** la tasa de homicidios en siniestros viales en los últimos seis meses respecto al semestre anterior.
+   - **KPI 1:** Tasa de homicidios en siniestros viales por cada 100,000 habitantes.
+2. **🛵 Disminuir un 7%** los accidentes mortales de motociclistas en el último año.
+   - **KPI 2:** Variación anual de accidentes mortales con víctimas motociclistas.
+3. **🚨 Reducir un 5%** los accidentes mortales causados por el principal responsable en el último semestre.
+   - **KPI 3:** Variación semestral de accidentes mortales causados por el principal responsable (🚗 *autos*).
+
+---
+
+## 🔍 **Análisis Exploratorio**
+Durante el análisis se realizó una **exploración de datos** con el objetivo de conocer la estructura de los siniestros viales:
+- 📅 **Fechas de los accidentes** (2016-2021).
+- 🧑‍🤝‍🧑 **Número de víctimas** por accidente.
+- 🚦 **Lugar del hecho** y tipos de calles.
+- 🏘️ **Comunas** involucradas.
+
+### 📊 **Principales hallazgos:**
+- El **97.13%** de los accidentes tuvieron solo **una víctima**.
+- El tipo de víctima más común fueron los **motociclistas** (42.39%).
+- El vehículo más involucrado como responsable fue el **auto** (29.31%).
+
+---
+
+## 🛠️ **Tecnologías Utilizadas**
+- **Python** 🐍
+  - Pandas
+  - Matplotlib
+  - Seaborn
+- **Google Cloud** ☁️
+  - BigQuery
+  - Data Studio
+- **Power BI** 📊 (Visualización de datos)
+- **GitHub** 🐙 (Control de versiones)
+
+---
+
+## 📈 **Resultados y Conclusiones**
+1. **Tasa de homicidios**: Se lograron reducciones importantes (>10%) en algunos semestres, pero aún existen varios con aumentos preocupantes.
+2. **Accidentes de motociclistas**: En tres de los cinco años analizados, se logró la reducción esperada.
+3. **Responsabilidad de autos**: Aunque en varios semestres se redujeron los accidentes causados por autos, en cinco semestres hubo incrementos preocupantes.
+
+---
+
+## 📊 **Visualización de Datos**
+### Distribución del Número de Víctimas por Accidente
+![Distribución de víctimas](distribucion_n_victimas.png)
+
+### Tipos de Víctimas
+![Conteo de víctimas](conteo_valores_victima.png)
+
+### Vehículos Acusados en los Accidentes
+![Acusados en accidentes](conteo_valores_acusado.png)
+
+---
+
+## 📂 **Estructura del Proyecto**
+```bash
+├── datasets/
+│   └── accidentes_caba.csv
+├── src/
+│   ├── data_cleaning.py
+│   ├── data_analysis.py
+│   └── visualizations.py
+├── README.md
+└── requirements.txt
