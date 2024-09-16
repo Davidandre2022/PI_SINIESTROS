@@ -54,36 +54,43 @@ El conjunto de datos contiene información detallada sobre los siniestros viales
 
 ## 3- **Planteamiento**
 
-OBJETIVO 3:
-Reducir en un 5% la cantidad de accidentes mortales en el último semestre en la Ciudad Autónoma de Buenos Aires (CABA), causados por el principal responsable de siniestros viales en comparación con el semestre anterior.
+## Objetivo 3: 
+**Reducir en un 5% la cantidad de accidentes mortales en el último semestre en la Ciudad Autónoma de Buenos Aires (CABA), causados por el principal responsable de siniestros viales en comparación con el semestre anterior.**
 
-KPI 3: Definimos la cantidad de accidentes mortales ocasionados por el principal responsable de homicidios en siniestros viales del último semestre como el número total de accidentes fatales causados por dicho responsable en un periodo temporal específico.
+### KPI 3: 
+**Cantidad de accidentes mortales ocasionados por el principal responsable de homicidios en siniestros viales del último semestre.**  
+El KPI se define como el número total de accidentes fatales causados por dicho responsable en un periodo temporal específico.
 
-FORMULA 3 (porcentaje de variación): Se calcula como {(número de accidentes mortales causados por el principal responsable de siniestros viales del último semestre en el semestre anterior - número de accidentes mortales causados por el mismo responsable en el semestre actual) / (número de accidentes mortales causados por el principal responsable de siniestros viales del último semestre en el semestre anterior)} * 100.
-Para llevar a cabo este análisis, se requieren los siguientes datos:
+### Fórmula 3 (Porcentaje de variación):
+Se calcula utilizando la siguiente fórmula:
 
-KPI 1: Tasa de homicidios en siniestros viales
+\[
+\text{Porcentaje de variación} = \frac{(\text{Accidentes mortales causados por el principal responsable en el semestre anterior} - \text{Accidentes mortales causados por el mismo responsable en el semestre actual})}{\text{Accidentes mortales causados por el principal responsable en el semestre anterior}} \times 100
+\]
 
-Semestre anterior
-Número de homicidios en siniestros viales en el semestre anterior
-Población total en el semestre anterior
-Semestre actual
-Número de homicidios en siniestros viales en el semestre actual
-Población total en el semestre actual
-KPI 2: Cantidad de accidentes mortales de motociclistas en siniestros viales
+### Datos requeridos para el análisis:
 
-Víctimas: Motociclistas
-Año anterior
-Número de accidentes mortales en el año anterior involucrando motociclistas
-Año actual
-Número de accidentes mortales en el año actual involucrando motociclistas
-KPI 3: Cantidad de accidentes mortales ocasionados por el principal responsable de homicidios en siniestros viales del último semestre
+#### KPI 1: Tasa de homicidios en siniestros viales
+- **Semestre anterior:**
+  - Número de homicidios en siniestros viales
+  - Población total
+- **Semestre actual:**
+  - Número de homicidios en siniestros viales
+  - Población total
 
-Mayor responsable de accidentes
-Semestre anterior
-Número de accidentes mortales causados por el mayor responsable en el semestre anterior
-Semestre actual
-Número de accidentes mortales causados por el mayor responsable en el semestre actual
+#### KPI 2: Cantidad de accidentes mortales de motociclistas en siniestros viales
+- **Víctimas:** Motociclistas
+  - **Año anterior:**
+    - Número de accidentes mortales involucrando motociclistas
+  - **Año actual:**
+    - Número de accidentes mortales involucrando motociclistas
+
+#### KPI 3: Cantidad de accidentes mortales ocasionados por el principal responsable de homicidios en siniestros viales
+- **Principal responsable de accidentes**
+  - **Semestre anterior:**
+    - Número de accidentes mortales causados por el mayor responsable
+  - **Semestre actual:**
+    - Número de accidentes mortales causados por el mayor responsable
 
 Se debe importar un dataset que contenga la población anual por comuna extraído de la página oficial del gobierno `https://www.estadisticaciudad.gob.ar/eyc/?p=28146`
 
